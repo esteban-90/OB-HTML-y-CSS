@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkslategrey;
+}
+
+button.btn-modern {
+  font-family: "FiraFlott", Courier, monospace;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: aliceblue;
+  color: teal;
+  transition: all 400ms;
+}
+
+button.btn-modern:hover {
+  transform: translateY(-5px);
+  border-bottom: 3px solid aliceblue;
+  background-color: teal;
+  color: aliceblue;
+}
