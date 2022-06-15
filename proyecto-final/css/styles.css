@@ -1,0 +1,274 @@
+.btn-main, .btn-main-sm {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: all 500ms;
+  background-color: #0075ff;
+  color: white;
+  border: 1px solid #0075ff;
+}
+.btn-main:hover, .btn-main-sm:hover {
+  background-color: white;
+  color: #0075ff;
+}
+.btn-main-sm {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-sm {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: all 500ms;
+  color: #000;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-sm:hover {
+  color: #888;
+}
+.btn-sec-sm {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 0.75rem;
+  list-style: none;
+  display: inline;
+  margin-right: 2rem;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  font-size: 1.25rem;
+  color: #0075ff;
+  padding: 0.4rem 0.65rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #0004;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.benefit i {
+  color: #0075ff;
+  font-size: 7.5rem;
+}
+.benefit .description .title {
+  font-size: 2rem;
+}
+.benefit .description .text {
+  color: #888;
+  font-weight: 600;
+}
+.benefit .cta {
+  color: #0075ff;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.icon-desc {
+  text-align: center;
+}
+.icon-desc i {
+  color: #0075ff;
+  padding: 0;
+  font-size: 10rem;
+}
+.icon-desc .title {
+  margin-top: -1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo a img {
+  max-width: 7rem;
+}
+
+.sect-home {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  max-width: 992px;
+  padding: 3rem;
+}
+.sect-home .home-cta {
+  flex: 1;
+}
+.sect-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sect-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+.sect-home .home-cta .home-description {
+  width: 300px;
+}
+.sect-home .home-cta .lead-magnet .input-col {
+  max-width: 200px;
+}
+
+.sect-features, .sect-onboarding .intro, .sect-benefits .intro {
+  margin: auto;
+  width: 100%;
+  max-width: 992px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sect-features .intro, .sect-onboarding .intro .intro, .sect-benefits .intro .intro {
+  text-align: center;
+}
+.sect-features .intro h3, .sect-onboarding .intro .intro h3, .sect-benefits .intro .intro h3 {
+  font-size: 1.8rem;
+}
+.sect-features .intro p, .sect-onboarding .intro .intro p, .sect-benefits .intro .intro p {
+  font-size: 0.8rem;
+  color: #888;
+}
+.sect-features .features, .sect-onboarding .intro .features, .sect-benefits .intro .features {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.sect-features .features .text, .sect-onboarding .intro .features .text, .sect-benefits .intro .features .text {
+  padding: 2rem 0;
+  flex-grow: 1;
+}
+.sect-features .features .text .feature, .sect-onboarding .intro .features .text .feature, .sect-benefits .intro .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sect-features .features .text .feature .description, .sect-onboarding .intro .features .text .feature .description, .sect-benefits .intro .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 20rem;
+  text-align: left;
+}
+.sect-features .features .text .feature .description-title, .sect-onboarding .intro .features .text .feature .description-title, .sect-benefits .intro .features .text .feature .description-title {
+  font-size: 1.15rem;
+}
+.sect-features .features .text .feature .description-text, .sect-onboarding .intro .features .text .feature .description-text, .sect-benefits .intro .features .text .feature .description-text {
+  font-size: 1rem;
+}
+.sect-features .features .image img, .sect-onboarding .intro .features .image img, .sect-benefits .intro .features .image img {
+  max-width: 20rem;
+}
+
+.sect-benefits {
+  border-top: 1px solid #ddd;
+}
+.sect-benefits .benefit-cards {
+  width: 100%;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.sect-kpis {
+  width: 100%;
+  background-color: #0075ff;
+  color: white;
+  padding: 4rem;
+}
+.sect-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sect-kpis .kpi .number {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.sect-kpis .kpi .desc {
+  font-size: 0.9rem;
+  color: #fffa;
+}
+
+.sect-onboarding .steps {
+  padding: 0 7rem 5rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect-onboarding .steps .step-separator {
+  flex-grow: 1;
+  border-top: 2px solid #ddd;
+  margin: 0 1rem;
+}
+
+.sect-footer-cta {
+  background-color: #f4f8fe;
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 5rem;
+}
+.sect-footer-cta .footer-cta {
+  width: 50%;
+}
+.sect-footer-cta .footer-cta .cta-title {
+  font-size: 2rem;
+}
+.sect-footer-cta .footer-cta .cta-description {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .sect-onboarding .steps {
+    flex-direction: column;
+  }
+  .sect-onboarding .steps .icon-desc .title {
+    text-align: center;
+  }
+
+  .sect-footer-cta {
+    background-image: none;
+  }
+  .sect-footer-cta .footer-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sect-benefits .intro {
+    text-align: center;
+  }
+  .sect-benefits .intro h3 {
+    font-size: 2rem;
+  }
+
+  .sect-features .intro h3, .sect-benefits .intro .intro h3, .sect-onboarding .intro .intro h3 {
+    font-size: 2rem;
+  }
+  .sect-features .intro p, .sect-benefits .intro .intro p, .sect-onboarding .intro .intro p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
